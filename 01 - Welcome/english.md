@@ -10,7 +10,7 @@ All project source code for the course can be found [here](https://github.com/ja
 
 ![](https://www.youtube.com/watch?v=-hXtt4ioH5A)
 
-Settings file changes (replace `PATH_TO_CHROME_CANARY`)
+(settings changes)
 ```json
     "liveServer.settings.donotShowInfoMsg": true,
     "liveServer.settings.root": "/dist",

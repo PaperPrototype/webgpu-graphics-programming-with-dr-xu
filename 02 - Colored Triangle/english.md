@@ -1,14 +1,14 @@
 ![](https://www.youtube.com/watch?v=QWh968pmsbg)
 
 # Updates
-Since Dr Xu's recording, Chrome Canary made changes to the WebGPU API as well as changes to Web Shader Graphics Language (WSGL). Below are the updated code (taken from Dr Xu's github [here](https://github.com/jack1232/webgpu02))
+Since Dr Xu's recording, Chrome Canary made changes to the WebGPU API as well as changes to Web Shader Graphics Language (WSGL). Below is the updated code (taken from Dr Xu's github [here](https://github.com/jack1232/webgpu02))
 
 > Make sure you do "npm update @webgpu/types" to update to the latest WebGPU types
 
-(main.ts [here](https://github.com/jack1232/webgpu02/blob/main/src/main.ts))
+(main.ts [source here](https://github.com/jack1232/webgpu02/blob/main/src/main.ts))
 ```ts
     //...
-    
+
     // const context = canvas.getContext("gpupresent") as unknown as GPUCanvasContext;
     const context = canvas.getContext("webgpu") as unknown as GPUCanvasContext;
 
@@ -66,7 +66,7 @@ Since Dr Xu's recording, Chrome Canary made changes to the WebGPU API as well as
     //...
 ```
 
-(shaders.ts [here](https://github.com/jack1232/webgpu02/blob/main/src/shaders.ts))
+(shaders.ts [source here](https://github.com/jack1232/webgpu02/blob/main/src/shaders.ts))
 ```ts
 export const Shaders = (color:string) => {
     const vertex = `
@@ -95,9 +95,9 @@ I recommend you update `CheckWebGPU` to:
 
 ```js
 export const CheckWebGPU = () => {
-    let result = true;
+    let success = true;
     if (!navigator.gpu) {
-        result = false;
+        success = false;
     }
 
     let message = "Great, your current browser supports WebGPU!";
@@ -113,7 +113,7 @@ export const CheckWebGPU = () => {
         `;
     }
 
-    return {result, message};
+    return {success, message};
 }
 ```
 

@@ -2,9 +2,9 @@
 
 This series of youtube tutorials are by Dr Xu. All credit to him. I took it upon myself to take the tutorial videos and organize them into a course in sparker :)
 
-This course and all its markdown files are free and open source! If you find a mistake or want to suggest an edit you can make a pull request or open an issue  [here](https://github.com/PaperPrototype/webgpu-graphics-programming-with-dr-xu)
+All markdown files in this course are free and open source. If you find a mistake or want to suggest an edit you can do so [here!](https://github.com/PaperPrototype/webgpu-graphics-programming-with-dr-xu)
 
-All source code fro the projects can be found [here](https://github.com/jack1232/WebGPU-Step-By-Step)
+All project source code for the course can be found [here](https://github.com/jack1232/WebGPU-Step-By-Step)
 
 # Setup
 

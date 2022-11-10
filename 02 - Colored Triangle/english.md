@@ -1,6 +1,8 @@
 ![](https://www.youtube.com/watch?v=QWh968pmsbg)
 
-> Code Update! Make sure you `npm update @webgpu/types` to the latest version
+> Code Update! Make sure you do 
+> ```npm update @webgpu/types```
+> to the latest version
 > Since Dr Xu's recording, Chrome Canary made changes to the WebGPU API: Below is the updated code (taken from Dr Xu's github [here](https://github.com/jack1232/webgpu02/blob/main/src/main.ts))
 
 ```ts

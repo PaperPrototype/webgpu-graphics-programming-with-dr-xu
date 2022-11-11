@@ -1,9 +1,9 @@
 ![](https://www.youtube.com/watch?v=QWh968pmsbg)
 
 # Updates
-Since Dr Xu's recording, Chrome Canary made changes to the WebGPU API as well as changes to Web Shader Graphics Language (WSGL). Below is the updated code (taken from Dr Xu's github [here](https://github.com/jack1232/webgpu02))
-
-> Make sure you do "npm update @webgpu/types" to update to the latest WebGPU types
+> Since Dr Xu's recording, Chrome Canary made changes to the WebGPU API as well as changes to Web Graphics Shader Language (WGSL). Below is the updated code (taken from Dr Xu's github [here](https://github.com/jack1232/webgpu02))
+>
+> Also, make sure you do "npm update @webgpu/types" to update to the latest WebGPU types
 
 (main.ts [source here](https://github.com/jack1232/webgpu02/blob/main/src/main.ts))
 ```ts
